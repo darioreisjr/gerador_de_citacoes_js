@@ -1,32 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gerador de Citações</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="assents/css/styles.css">
+    <link rel="stylesheet" href="assents/css/button.css">
+    <script src="assents/scripts/index.js"></script>
+    <link rel="icon" href="assents/img/logoGeradorDeCitacoeso.png">
+
 </head>
 <body>
-    <div class="quote-generator">
-        <h2>Gerador de Citações</h2>
-        <button onclick="generateQuote()">Gerar Citação</button>
+        <div class="quote-generator">
+            <img src="assents/img/logoGeradorDeCitacoeso.png" alt="logo esccrito Gerador de Citações" width="100%">
+            <button onclick="generateQuote()" class="button">
+                <div class="inner">
+                  <div class="svgs">
+                    <svg
+                      viewBox="0 0 256 256"
+                      height="1em"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="svg-l"
+                    >
+                      <path
+                        d="M240 128a15.79 15.79 0 0 1-10.5 15l-63.44 23.07L143 229.5a16 16 0 0 1-30 0l-23.06-63.44L26.5 143a16 16 0 0 1 0-30l63.44-23.06L113 26.5a16 16 0 0 1 30 0l23.07 63.44L229.5 113a15.79 15.79 0 0 1 10.5 15"
+                        fill="currentColor"
+                      ></path>
+                    </svg>
+                    <svg
+                      viewBox="0 0 256 256"
+                      height="1em"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="svg-s"
+                    >
+                      <path
+                        d="M240 128a15.79 15.79 0 0 1-10.5 15l-63.44 23.07L143 229.5a16 16 0 0 1-30 0l-23.06-63.44L26.5 143a16 16 0 0 1 0-30l63.44-23.06L113 26.5a16 16 0 0 1 30 0l23.07 63.44L229.5 113a15.79 15.79 0 0 1 10.5 15"
+                        fill="currentColor"
+                      ></path>
+                    </svg>
+                  </div>
+                  Gerar Citação
+                </div>
+              </button>
+        </div>
         <div id="quote"></div>
-    </div>
-
-    <script>
-        const quotes = [
-            "A vida é o que acontece enquanto você está ocupado fazendo outros planos. - John Lennon",
-            "O sucesso é a capacidade de passar de um fracasso para outro sem perder o entusiasmo. - Winston Churchill",
-            "A única coisa que fica entre você e seu objetivo é a história que você continua contando a si mesmo sobre por que não pode alcançá-lo. - Jordan Belfort",
-            "A melhor vingança é um sucesso maciço. - Frank Sinatra",
-            "A única maneira de fazer um excelente trabalho é amar o que você faz. - Steve Jobs"
-        ];
-
-        function generateQuote() {
-            const randomIndex = Math.floor(Math.random() * quotes.length);
-            const quote = quotes[randomIndex];
-            document.getElementById('quote').textContent = quote;
-        }
-    </script>
 </body>
 </html>
