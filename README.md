@@ -1,5 +1,8 @@
 ## 🎨 Gerador de Citações 🎨
 
+![image](https://github.com/darioreisjr/gerador_de_citacoes_js/assets/85812823/550eb4e7-744a-42aa-a603-6db5223ed928)
+
+
 Este projeto e um gerador de citações,  uma aplicação web que exibe citações aleatórias ou personalizadas. Ele utiliza HTML, CSS e JavaScript, com uma estrutura simples e organizada.
 
 ## 💻 Tecnologias Utilizadas:
