@@ -1,4 +1,4 @@
-## 🎨 Gerador de Citações (Sugestão) 🎨
+## 🎨 Gerador de Citações 🎨
 
 Este projeto e um gerador de citações,  uma aplicação web que exibe citações aleatórias ou personalizadas. Ele utiliza HTML, CSS e JavaScript, com uma estrutura simples e organizada.
 
